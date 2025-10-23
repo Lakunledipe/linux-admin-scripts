@@ -1,0 +1,18 @@
+name: ShellCheck Linter
+
+on:
+  # Run this check on 'push' (when you commit) or 'pull_request'
+  push:
+  pull_request:
+
+jobs:
+  shellcheck:
+    name: ShellCheck
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Run ShellCheck
+        # This is the "action" that runs the check
+        uses: ludeeus/action-shellcheck@master
