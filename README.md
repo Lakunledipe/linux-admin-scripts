@@ -21,10 +21,10 @@ A simple Bash script to automate the process of adding new users on a Linux (Deb
     You can download the script directly from this repository using `curl` or `wget`.
     ```bash
     # Using curl
-    curl -O [https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/create_user.sh](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/create_user.sh)
+    curl -O [https://raw.githubusercontent.com/Lakunledipe/linux-admin-scripts/refs/heads/main/create_user.sh](https://raw.githubusercontent.com/Lakunledipe/linux-admin-scripts/refs/heads/main/create_user.sh)
 
     # Or using wget
-    wget [https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/create_user.sh](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/create_user.sh)
+    wget [https://raw.githubusercontent.com/Lakunledipe/linux-admin-scripts/refs/heads/main/create_user.sh][https://raw.githubusercontent.com/Lakunledipe/linux-admin-scripts/refs/heads/main/create_user.sh]
     ```
     *(**Note:** You must replace `YOUR_USERNAME` and `YOUR_REPO_NAME` with your own details after you upload it!)*
 
