@@ -26,7 +26,6 @@ A simple Bash script to automate the process of adding new users on a Linux (Deb
     # Or using wget
     wget [https://raw.githubusercontent.com/Lakunledipe/linux-admin-scripts/refs/heads/main/create_user.sh][https://raw.githubusercontent.com/Lakunledipe/linux-admin-scripts/refs/heads/main/create_user.sh]
     ```
-    *(**Note:** You must replace `YOUR_USERNAME` and `YOUR_REPO_NAME` with your own details after you upload it!)*
 
 2.  **Make it Executable:**
     ```bash
