@@ -9,7 +9,13 @@ echo ""
 echo "Please enter the username for the new user:"
 read new_username
 echo ""
-
+# --- Check if user already exists ---
+if id "$new_username" &>/dev/null; then
+    echo "Error: User '$new_username' already exists."
+    echo "Exiting script."
+    exit 1
+fi
+echo ""
 # --- Get Group Name ---
 echo "Please enter the group they should join (e.g., developers, web, data):"
 read user_group
